@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dark-theme {
+  /* navbar */
+  --devide-background-color:#333;
+  --back-ground-clr:grey;
+  --nav-background-clr:#333;
+  --nav-link-color:white;
+  --nav-bar-search-input-color:grey;
+  /* content */
+  --box-background-color:#333;
+  --card-background-color:#718093;
+  --h1:white;
+  --content:white;
+  --card:white;
+  /* Footer */
+  --footer-background-color:#333;
+  --footer-heading-color:#ccc;
+  --footer-list-color:#ccc;
+  --footer-list-hover:white;
+
+}
+.light-theme {
+  /* Navbar */
+  --devide-background-color:white;
+  --back-ground-clr:#f5f5f5;
+  --nav-background-clr:white;
+  --nav-link-color:#333;
+  --nav-bar-search-input-color:#f5f5f5;
+  /* content */
+  --box-background-color:white;
+  --card-background-color:white;
+  --h1:black;
+  --content:black;
+  --card:black;
+  /* Footer */
+  --footer-background-color:#333;
+  --footer-heading-color:black;
+  --footer-list-color:black;
+  --footer-list-hover:gray;
+}

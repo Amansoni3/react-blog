@@ -3,6 +3,7 @@ import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import Content from "./Pages/Content";
 
+
 function App() {
   return (
     <>

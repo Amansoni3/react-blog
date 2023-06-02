@@ -1,55 +1,52 @@
-import React from 'react'
-import "../Styles/Footer.css"
+import React from 'react';
+import '../Styles/Footer.css';
 
 const Footer = () => {
     return (
-        <>
-            <hr />
-            <div className="footer">
-                <div className="contain">
-                    <div className="col">
-                        <h8 style={{ fontWeight: "bold", color: "Grey" }}>Meta Open Source</h8>
-                    </div>
-                    <div className="col">
-                        <h8 style={{ fontWeight: "bold", color: 'Grey' }}>Learn React</h8>
-                        <ul>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href='/'>Quick Start</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Installation</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Describing the UI</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Adding Interactivity</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Managing State</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Escape Hatches</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h8 style={{ fontWeight: "bold", color: 'Grey' }}>Api Refrences</h8>
-                        <ul>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">React Api</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">React Dom Api</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h8 style={{ fontWeight: "bold", color: 'Grey' }}>Community</h8>
-                        <ul>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Code of Conduct</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Meet the team</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Docs Conributor</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Acknowledgement</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h8 style={{ fontWeight: "bold", color: 'Grey' }}>More</h8>
-                        <ul>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Blog</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">React Native</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Privacy</a></li>
-                            <li style={{ marginBottom: "15px" }}><a style={{ color: "Grey" }} href="/">Terms</a></li>
-                        </ul>
-                    </div>
+        <footer className="footer">
+            <div className="container">
+                <div className="col">
+                    <h4 className="footer-heading">Meta Open Source</h4>
+                </div>
+                <div className="col">
+                    <h4 className="footer-heading">Learn React</h4>
+                    <ul className="footer-list">
+                        <li><a href="/">Quick Start</a></li>
+                        <li><a href="/">Installation</a></li>
+                        <li><a href="/">Describing the UI</a></li>
+                        <li><a href="/">Adding Interactivity</a></li>
+                    </ul>
+                </div>
+                <div className="col">
+                    <h4 className="footer-heading">API References</h4>
+                    <ul className="footer-list">
+                        <li><a href="/">React API</a></li>
+                        <li><a href="/">React DOM API</a></li>
+                        <li><a href="/">Managing State</a></li>
+                        <li><a href="/">Escape Hatches</a></li>
+                    </ul>
+                </div>
+                <div className="col">
+                    <h4 className="footer-heading">Community</h4>
+                    <ul className="footer-list">
+                        <li><a href="/">Code of Conduct</a></li>
+                        <li><a href="/">Meet the Team</a></li>
+                        <li><a href="/">Docs Contributor</a></li>
+                        <li><a href="/">Acknowledgement</a></li>
+                    </ul>
+                </div>
+                <div className="col">
+                    <h4 className="footer-heading">More</h4>
+                    <ul className="footer-list">
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">React Native</a></li>
+                        <li><a href="/">Privacy</a></li>
+                        <li><a href="/">Terms</a></li>
+                    </ul>
                 </div>
             </div>
-        </>
-    )
-}
+        </footer>
+    );
+};
 
-export default Footer
+export default Footer;
