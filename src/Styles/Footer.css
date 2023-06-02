@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: white;
+}
+.footer .col{
+    width: 300px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+.footer .col .h8{
+    margin: 0;
+    padding: 10px;
+    line-height: 17px;
+    text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
