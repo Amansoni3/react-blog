@@ -65,3 +65,44 @@ h1 {
 .card a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .box {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card br {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  }

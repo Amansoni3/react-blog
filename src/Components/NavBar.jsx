@@ -6,14 +6,17 @@ import BasicModal from './Model'
 const NavBar = () => {
 
     const [isDilogOpen, setDilogOpen] = useState(false)
-    const [theme , setTheme] = useState("light-theme")
+    const [theme, setTheme] = useState("light-theme")
 
     const toggleTheme = () => {
+        const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
         theme === "dark-theme" ? setTheme("light-theme") : setTheme("dark-theme")
     }
-    useEffect(() => { 
+
+    useEffect(() => {
         document.body.className = theme
     }, [theme])
+
 
     const handleOpen = () => {
         setDilogOpen(true)
